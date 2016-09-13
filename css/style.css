@@ -1,0 +1,503 @@
+body {
+  /*background-color: #b1b262;*/
+}
+
+main {
+  min-width: 1410px;
+  max-width: 1410px;
+}
+
+#left-side-bar {
+  background-color: #b1b262;
+  max-width: 49%;
+  display: inline-block;
+  vertical-align: middle;
+  height: 1233px;
+  min-width: 49%;
+}
+
+#right-side-bar {
+  background-color: white;
+  max-width: 700px;
+  min-width: 700px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.in-the-left {
+  margin: 10% 0% 0% 20%;
+}
+
+#image {
+  display: block;
+  margin: auto;
+  margin-top: -65%;
+  max-width: 60%;
+  max-height: 85%;
+}
+
+.full-name {
+  margin-top: 3%;
+}
+
+.links {
+  /*margin: top% right% bottom% left%*/
+  margin: 200px 0px 0px 648px;
+  position: fixed;
+}
+
+.my-name-is, .name {
+  margin: 0;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.my-name-is, .name {
+  margin-top: -4%;
+  font-size: 80px;
+}
+
+.my-name-is {
+  color: #a3903a;
+}
+
+.name {
+  color: #605f5a;
+}
+
+.about-me {
+  max-width: 400px;
+}
+
+.download, .downloadToRemove {
+  margin-top: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#linkedIn {
+  margin: 25% 0% 0% 25%;
+  max-width: 50%;
+  min-height: 50%;
+  opacity: 1;
+}
+
+#github {
+  margin: 10% 0% 0% 10%;
+  max-width: 79%;
+  min-height: 79%;
+  opacity: 1;
+}
+
+#project-word {
+  margin: -10% 0% 0% 15%;
+}
+
+#project-image {
+  margin: 9.5% 0% 0% 10%;
+  max-width: 79%;
+  min-height: 79%;
+}
+
+.circle{
+  margin-bottom: 25%;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  background-color: #6b5700;
+  opacity: .6;
+  padding: 5%;
+}
+
+.lightAnimation {
+  margin: -90px 0px 0px 17px;
+  width: 53px;
+  height: 53px;
+  border-radius: 100px;
+  background-color: yellow;
+  position: absolute;
+  opacity: .5;
+}
+
+.wrap-right-side {
+  margin-top: 10%;
+}
+
+.title {
+  color: #b1b262;
+  margin: -45px 0px 0px 280px;
+  position: absolute;
+}
+
+#imageResume {
+  margin: -50% 0% 0% 10%;
+}
+
+
+/*CSS tricks*/
+.button {
+   margin-right: 10px;
+   border-top: 1px solid #b1b262;
+   background: #605f5a;
+   background: -webkit-gradient(linear, left top, left bottom, from(#b1b262), to(#605f5a));
+   background: -webkit-linear-gradient(top, #b1b262, #605f5a);
+   background: -moz-linear-gradient(top, #b1b262, #605f5a);
+   background: -ms-linear-gradient(top, #b1b262, #605f5a);
+   background: -o-linear-gradient(top, #b1b262, #605f5a);
+   padding: 5px 10px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 15px;
+   font-family: Georgia, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+.button:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+.downloadToRemove {
+  margin-top: 50px;
+}
+
+
+   /*form*/
+
+#send-email {
+  margin-top: 10%;
+  /*position: absolute;*/
+}
+
+.send-message {
+  margin: 180.5px 0px 0px 130px;
+  position: absolute;
+}
+
+.send-message-align {
+  margin: 322px 0px 0px 130px;
+  position: absolute;
+}
+
+#input-name, #input-email, #input-subject {
+  border: 1px solid #ffffff;
+  background: #e8dfb7;
+  margin: 0px 0px 6px 0px;
+  font-size: 15px;
+  height: 25px;
+  width: 200px;
+
+}
+
+#input-text {
+  border: 1px solid #ffffff;
+  background: #e8dfb7;
+  margin: -105px 0px 0px 209px;
+  font-size: 15px;
+  height: 93px;
+  width: 250px;
+  position: absolute;
+}
+
+#input-submit {
+  color: #605f5a;
+  border: 1px solid #ffffff;
+  background-color: #e8dfb7;
+  padding: 1%;
+  font-weight: 900;
+  margin-left: 416.5px;
+  margin-top: 10px;
+  font-size: 13.5px;
+}
+
+#mail {
+  margin: -13px 0px 0px 220px;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+#hr1 {
+  margin: 0px 0px 0px 0px;
+  width: 200px;
+  height: 2px;
+  background: #ffffff;
+  border: 0px solid #ffffff;
+}
+#hr2 {
+  margin: -2px 0px 0px 263.5px;
+  width: 200px;
+  height: 2px;
+  background: #ffffff;
+  border: 0px solid #ffffff;
+}
+#hr3 {
+  margin: -2px 0px 0px 0px;
+  width: 463.5px;
+  height: 2px;
+  background: #ffffff;
+  border: 0px solid #ffffff;
+}
+
+#send-h2 {
+  margin-left: 130px;
+  color: #ffffff;
+}
+
+/*send me a email on the right side*/
+#hr4 {
+  margin: 0px 0px 0px 0px;
+  width: 200px;
+  height: 2px;
+  background: #b1b262;
+  border: 0px solid #b1b262;
+}
+#hr5 {
+  margin: -2px 0px 0px 263.5px;
+  width: 200px;
+  height: 2px;
+  background: #b1b262;
+  border: 0px solid #b1b262;
+}
+#hr6 {
+  margin: -2px 0px 0px 0px;
+  width: 463.5px;
+  height: 2px;
+  background: #b1b262;
+  border: 0px solid #b1b262;
+}
+
+#send-h22 {
+  margin-left: 130px;
+  color: #b1b262;
+}
+
+
+form {
+  margin: 30px 0px 50px  0px;
+  /*margin-bottom: 50px;*/
+}
+
+footer {
+  width: 100%;
+  height: 45px;
+  background-color: #a3903a;
+  text-align: center;
+}
+
+#foot {
+  padding: 14px;
+}
+
+
+/*projects parse*/
+.projects {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  /*background-color: #a3903a;*/
+}
+
+#checkers {
+  margin: -552px 0px 0px 90px;
+  background-color: #a3903a;
+}
+
+#invisibleT {
+  margin: -552px 0px 0px 400px;
+  background-color: #27d5db;
+}
+
+#walmart {
+  margin: -252px 0px 0px 90px;
+  background-color: #a3903a;
+}
+
+#flashC {
+  margin: -252px 0px 0px 400px;
+  background-color: #a3903a;
+}
+
+#checkers-image {
+  width: 250px;
+  height: 250px;
+}
+
+ #invisibleT-image {
+  margin-top: 70px;
+  width: 250px;
+  height: 184px;
+ }
+ #flashCard-image {
+    margin-top: 25px;
+    width: 250px;
+    height: 200px;
+ }
+
+ #walmart-image {
+  color: #ffffff;
+  background-color: #605f5a;
+  width: 250px;
+  height: 230px;
+  font-size: 60px;
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 20px;
+ }
+
+ /* Queries*/
+
+@media screen and (max-width: 1430px) {
+ .links {
+    /*margin: top% right% bottom% left%*/
+    margin: 200px 0px 0px 648px;
+    position: absolute;
+  }
+
+  body {
+    background-color: blue;
+  }
+
+/*for cell phone*/
+@media only screen and (max-width: 999px) {
+
+  #left-side-bar {
+    background-color: #b1b262;
+    max-width: 100%;
+    height: 2500px;
+    min-width: 100%;
+  }
+
+  #right-side-bar {
+    margin: 900px 0px 0px 0px;
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .circle{
+    margin-bottom: 25%;
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: #6b5700;
+    opacity: .6;
+    padding: 5%;
+  }
+
+  .links {
+    /*margin: top% right% bottom% left%*/
+   /* margin: 700px 0px 0px 40px;
+    position: fixed;*/
+  }
+
+  #checkers {
+    margin: -552px 0px 0px -90px;
+    background-color: #a3903a;
+  }
+
+  #invisibleT {
+    margin: -552px 0px 0px 400px;
+    background-color: #27d5db;
+  }
+
+  #walmart {
+    margin: -252px 0px 0px 90px;
+    background-color: #a3903a;
+  }
+
+  #flashC {
+    margin: -252px 0px 0px 400px;
+    background-color: #a3903a;
+  }
+
+  .my-name-is, .name {
+    margin-left: 100px;
+    font-family: Impact, Charcoal, sans-serif;
+    margin-top: -4%;
+    font-size: 250px;
+  }
+
+  .my-name-is {
+    color: #a3903a;
+  }
+
+  .name {
+    color: #605f5a;
+  }
+
+  #input-name, #input-email, #input-subject {
+    border: 1px solid #ffffff;
+    background: #e8dfb7;
+    margin: 0px 0px 6px 30px;
+    font-size: 50px;
+    height: 80px;
+    width: 890px;
+
+  }
+
+  #input-text {
+    border: 1px solid #ffffff;
+    background: #e8dfb7;
+    margin: 15px 0px 0px 30px;
+    font-size: 50px;
+    height: 240px;
+    width: 890px;
+    position: absolute;
+  }
+
+  #input-submit {
+    color: #605f5a;
+    border: 1px solid #ffffff;
+    background-color: #e8dfb7;
+    padding: 5%;
+    font-weight: 900;
+    margin: 300px 0px 0px 700px;
+    font-size: 45px;
+  }
+
+  #mail {
+    margin: -35px 0px 0px 440px;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+  }
+  #hr1 {
+    margin: 0px 0px 0px 30px;
+    width: 400px;
+    height: 5px;
+    background: #ffffff;
+    border: 0px solid #ffffff;
+  }
+  #hr2 {
+    margin: -5px 0px 0px 520px;
+    width: 400px;
+    height: 5px;
+    background: #ffffff;
+    border: 0px solid #ffffff;
+  }
+  #hr3 {
+    margin: -30px 0px 0px 30px;
+    width: 885px;
+    height: 5px;
+    background: #ffffff;
+    border: 0px solid #ffffff;
+  }
+
+  #send-h2 {
+    margin: 30px 0px 50px 160px;
+    color: #ffffff;
+    font-size: 90px;
+  }
+}
+}
+
+

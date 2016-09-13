@@ -1,0 +1,346 @@
+/*@import "compass/css3";
+
+$dia: 6em;
+$incolor: blue;
+$outcolor: #fff;
+$bdrwidth: 10px;
+$time: 0.15s;*/
+
+
+
+body {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.green, .blue {
+  display: block;
+  width: 65px;
+  height: 65px;
+  /*transition: all linear 0.1s;*/
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  border: 5px dashed #fff;
+  border-radius: 100px;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.green:hover, .blue:hover  {
+  border: 2px solid #fff;
+  box-shadow: 0 0 40px rgb(255,255,255);
+}
+
+.tabuleiro {
+  margin: 0, auto;
+  margin: 2.3% 0% 0% 28%;
+  position: absolute;
+  width: 588px;
+  height: 588px;
+  /*border: 2px solid yellow;*/
+}
+
+#image-board {
+  width: 650px;
+  height: 650px;
+  margin: -5.3% 0% 0% -54%;
+  position: absolute;
+}
+
+.possibleMoves {
+  display: block;
+  width: 65px;
+  height: 65px;
+  transition: all linear 0.1s;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  /*border: 5px dashed #fff;*/
+  border-radius: 100px;
+}
+
+.notPlay {
+  pointer-events: none;
+}
+
+.playing {
+  pointer-events: auto;
+}
+
+/*margin: top% right% bottom% left%*/
+#p1 {
+  margin: 1% 0% 0% 14.7%;
+  position: absolute;
+}
+#p2 {
+  margin: 1% 0% 0% 39.5%;
+  position: absolute;
+}
+#p3 {
+  margin: 1% 0% 0% 64%;
+  position: absolute;
+}
+#p4 {
+  margin: 1% 0% 0% 88.7%;
+  position: absolute;
+}
+
+#p5 {
+  margin: 13.5% 0% 0% 2.5%;
+  position: absolute;
+}
+#p6 {
+  margin: 13.5% 0% 0% 26.9%;
+  position: absolute;
+}
+#p7 {
+  margin: 13.5% 0% 0% 51.5%;
+  position: absolute;
+}
+#p8 {
+  margin: 13.5% 0% 0% 76.5%;
+  position: absolute;
+}
+
+#p9 {
+  margin: 26% 0% 0% 14.7%;
+  position: absolute;
+}
+#p10 {
+  margin: 26% 0% 0% 39.6%;
+  position: absolute;
+}
+#p11 {
+  margin: 26% 0% 0% 64%;
+  position: absolute;
+}
+#p12 {
+  margin: 26% 0% 0% 88.5%;
+  position: absolute;
+}
+
+#p17 {
+  margin: 50.5% 0% 0% 14.7%;
+  position: absolute;
+}
+#p18 {
+  margin: 50.5% 0% 0% 39.6%;
+  position: absolute;
+}
+#p19 {
+  margin: 50.5% 0% 0% 64%;
+  position: absolute;
+}
+#p20 {
+  margin: 50.5% 0% 0% 89%;
+  position: absolute;
+}
+
+
+#p13 {
+  margin: 38.3% 0% 0% 2.5%;
+  position: absolute;
+}
+#p14 {
+  margin: 38.3% 0% 0% 27%;
+  position: absolute;
+}
+#p15 {
+  margin: 38.3% 0% 0% 51.7%;
+  position: absolute;
+}
+#p16 {
+  margin: 38.3% 0% 0% 76.5%;
+  position: absolute;
+}
+
+ /*margin: top% right% bottom% left%*/
+ /*Blue pices */
+#p29 {
+  margin: 88% 0% 0% 2.5%;
+  position: absolute;
+}
+#p30 {
+  margin: 88% 0% 0% 27%;
+  position: absolute;
+}
+#p31 {
+  margin: 88% 0% 0% 52%;
+  position: absolute;
+}
+#p32 {
+  margin: 88% 0% 0% 76.5%;
+  position: absolute;
+}
+
+#p25 {
+  margin: 75.5% 0% 0% 14.7%;
+  position: absolute;
+}
+#p26 {
+  margin: 75.5% 0% 0% 39.6%;
+  position: absolute;
+}
+#p27 {
+  margin: 75.5% 0% 0% 64%;
+  position: absolute;
+}
+#p28 {
+  margin: 75.5% 0% 0% 88.6%;
+  position: absolute;
+}
+
+#p21 {
+  margin: 63% 0% 0% 2.5%;
+  position: absolute;
+}
+#p22 {
+  margin: 63% 0% 0% 27%;
+  position: absolute;
+}
+#p23 {
+  margin: 63% 0% 0% 51.5%;
+  position: absolute;
+}
+#p24 {
+  margin: 63% 0% 0% 76.5%;
+  position: absolute;
+}
+
+.spin {
+   -webkit-animation-name: spin;
+    -webkit-animation-duration: 4000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 4000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 4000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+
+    animation-name: spin;
+    animation-duration: 4000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@-ms-keyframes spin {
+    from { -ms-transform: rotate(0deg); }
+    to { -ms-transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+/*Empty spots*/
+.empty {
+  display: block;
+  width: 65px;
+  height: 65px;
+  border-radius: 100px;
+}
+
+#blue-stack {
+  background: blue;
+  width: 150px;
+  height: 600px;
+  margin: 5% 0% 0% 80%;
+  border-radius: 30px;
+  position: fixed;
+}
+
+#green-stack {
+  width: 150px;
+  height: 600px;
+  background: green;
+  margin: -42% 0% 0% 9%;
+  border-radius: 30px;
+  position: fixed;
+}
+.green-border-top, .green-border-right, .green-border-bottom, .green-border-left {
+  background: green;
+  border-radius: 30px;
+  position: absolute;
+  display: none;
+}
+
+.green-border-top {
+  margin: -5% 0% 0% -2.5%;
+  width: 628px;
+  height: 30px;
+}
+
+.green-border-right {
+  margin: -3.5% 0% 0% 100.7%;
+  width: 30px;
+  height: 629px;
+}
+
+.green-border-bottom {
+  margin: 99.6% 0% 0% -2%;
+  width: 630px;
+  height: 30px;
+}
+
+.green-border-left {
+  margin: -3.5% 0% 0% -3.7%;
+  width: 30px;
+  height: 628px;
+}
+
+.blue-border-top, .blue-border-right, .blue-border-bottom, .blue-border-left {
+  background: blue;
+  border-radius: 30px;
+  position: absolute;
+  display: none;
+}
+
+.blue-border-top {
+  margin: -5% 0% 0% -2.5%;
+  width: 628px;
+  height: 30px;
+}
+
+.blue-border-right {
+  margin: -3.5% 0% 0% 100.7%;
+  width: 30px;
+  height: 629px;
+}
+
+.blue-border-bottom {
+  margin: 99.6% 0% 0% -2%;
+  width: 630px;
+  height: 30px;
+}
+
+.blue-border-left {
+  margin: -3.5% 0% 0% -3.7%;
+  width: 30px;
+  height: 628px;
+}
+
+
+
+
