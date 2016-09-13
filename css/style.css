@@ -370,7 +370,7 @@ footer {
 /*for cell phone*/
 @media only screen and (max-width: 999px) {
 
-  #left-side-bar {
+/*  #left-side-bar {
     background-color: #b1b262;
     max-width: 100%;
     height: 2500px;
@@ -391,7 +391,7 @@ footer {
     background-color: #6b5700;
     opacity: .6;
     padding: 5%;
-  }
+  }*/
 
   .links {
     /*margin: top% right% bottom% left%*/
@@ -399,7 +399,7 @@ footer {
     position: fixed;*/
   }
 
-  #checkers {
+/*  #checkers {
     margin: -552px 0px 0px -90px;
     background-color: #a3903a;
   }
@@ -496,7 +496,7 @@ footer {
     margin: 30px 0px 50px 160px;
     color: #ffffff;
     font-size: 90px;
-  }
+  }*/
 }
 }
 
