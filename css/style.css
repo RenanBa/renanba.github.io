@@ -2,6 +2,7 @@ body {
   /*background-color: #b1b262;*/
 }
 
+
 main {
   min-width: 1410px;
   max-width: 1410px;
@@ -109,6 +110,12 @@ main {
   background-color: #6b5700;
   opacity: .6;
   padding: 5%;
+}
+.circle:hover {
+  border-top-color: #28597a;
+  background: #28597a;
+  color: #ccc;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.4), 0 6px 40px 0 rgba(0, 0, 0, 0.38);
 }
 
 .lightAnimation {
