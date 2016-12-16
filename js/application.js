@@ -44,6 +44,20 @@ $(document).ready(function(){
     $(".send-message-align").removeClass("send-message-align").addClass("send-message");
   })
 
+//description box on mouseover
+  var e = document.getElementById('parent');
+  e.onmouseover = function() {
+    document.getElementById('popup').style.display = 'block';
+  }
+  e.onmouseout = function() {
+    document.getElementById('popup').style.display = 'none';
+  }
+
+
+
+
+
+
   $("form").on("submit", function(e){
     e.preventDefault();
 
@@ -74,7 +88,7 @@ var Parse = {
 
   checkers: "<a href='checkers/index.html' target='_blank' class='removeProject' ><div class='projects' id='checkers'><img id='checkers-image' src='images/checkers.png' alt='checkers'></div></a>",
 
-  invisibleT: "<a href='https://github.com/wfriebel/invisible-thread' target='_blank' class='removeProject' > <div class='projects' id='invisibleT'><img id='invisibleT-image' src='images/invisibleThread.png' alt='Invisible Thread'></div></a>",
+  invisibleT: "<a href='https://github.com/RenanBa/invisible-thread' target='_blank' class='removeProject' > <div class='projects' id='invisibleT'><img id='invisibleT-image' src='images/invisibleThread.png' alt='Invisible Thread'></div></a>",
 
   walmart: "<a href='https://search-api-market.herokuapp.com/' target='_blank' class='removeProject' > <div class='projects' id='walmart'><h2 id='walmart-image'>Walmart API search</h2></div></a>",
 

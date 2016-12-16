@@ -2,6 +2,18 @@ body {
   /*background-color: #b1b262;*/
 }
 
+#parent #popup {
+  display: none;
+}
+
+#parent:hover #popup {
+  display: block;
+  position: absolute;
+  margin-top: 70px;
+  color: #28597a;
+}
+
+
 
 main {
   min-width: 1410px;
