@@ -13,8 +13,6 @@ body {
   color: #28597a;
 }
 
-
-
 main {
   min-width: 1410px;
   max-width: 1410px;
@@ -84,6 +82,10 @@ main {
   margin-top: 1em;
 }
 
+.email{
+  margin: 10px 0px 0px 70px;
+}
+
 .download, .downloadToRemove {
   margin-top: 20px;
   text-align: center;
@@ -104,14 +106,14 @@ main {
   opacity: 1;
 }
 
-#project-word {
-  margin: -10% 0% 0% 15%;
-}
-
 #project-image {
   margin: 9.5% 0% 0% 10%;
   max-width: 79%;
   min-height: 79%;
+}
+
+#project-word {
+  margin: -10% 0% 0% 15%;
 }
 
 .circle{
@@ -196,10 +198,9 @@ main {
 
 
    /*form*/
-
+/*
 #send-email {
   margin-top: 10%;
-  /*position: absolute;*/
 }
 
 .send-message {
@@ -210,9 +211,9 @@ main {
 .send-message-align {
   margin: 322px 0px 0px 130px;
   position: absolute;
-}
+}*/
 
-#input-name, #input-email, #input-subject {
+/*#input-name, #input-email, #input-subject {
   border: 1px solid #ffffff;
   background: #e8dfb7;
   margin: 0px 0px 6px 0px;
@@ -274,10 +275,10 @@ main {
 #send-h2 {
   margin-left: 130px;
   color: #ffffff;
-}
+}*/
 
 /*send me a email on the right side*/
-#hr4 {
+/*#hr4 {
   margin: 0px 0px 0px 0px;
   width: 200px;
   height: 2px;
@@ -302,13 +303,13 @@ main {
 #send-h22 {
   margin-left: 130px;
   color: #b1b262;
-}
+}*/
 
-
+/*
 form {
   margin: 30px 0px 50px  0px;
-  /*margin-bottom: 50px;*/
-}
+  margin-bottom: 50px;
+}*/
 
 footer {
   width: 100%;
@@ -382,6 +383,23 @@ footer {
   body {
     background-color: #b1b262;
   }
+  .links {
+    margin: 40px 0px 0px 570px;
+   /* position: fixed;*/
+  }
+  .link-mobile-github{
+    margin: -149px 0px 0px 130px;
+    position: absolute;
+  }
+   .link-mobile-projects{
+    margin: -149px 0px 0px 260px;
+    position: absolute;
+  }
+  .circle{
+    width: 110px;
+    height: 110px;
+  }
+
   main {
     min-width: 100%;
     max-width: 100%;
