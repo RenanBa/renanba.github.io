@@ -384,7 +384,7 @@ footer {
     background-color: #b1b262;
   }
   .links {
-    margin: 40px 0px 0px 570px;
+    margin: 40px 0px 0px 550px;
    /* position: fixed;*/
   }
   .link-mobile-github{
@@ -395,6 +395,17 @@ footer {
     margin: -149px 0px 0px 260px;
     position: absolute;
   }
+  .lightAnimation {
+    margin: -125px 0px 0px 285px;
+    width: 70px;
+    height: 70px;
+  }
+  .projects-mobile{
+    margin-top: 50px;
+    margin-left: -50px;
+    font-size: 50px;
+  }
+
   .circle{
     width: 110px;
     height: 110px;
