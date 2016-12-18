@@ -387,7 +387,7 @@ footer {
     max-width: 100%;
   }
   #left-side-bar {
-    height: 1000px;
+    height: 1730px;
     max-width: 100%;
     min-width: 100%;
   }
@@ -405,5 +405,17 @@ footer {
   .in-the-left {
     margin: 10% 0% 0% 10%;
   }
-
+  .marge{
+    margin-top: -0.35em;
+    font-size: 170px;
+  }
+  .about-me {
+    padding-top: 0.1px;
+    max-width: 690px;
+    margin-top: 0em;
+    font-size: 40px;
+  }
+  .full-name {
+    font-size: 70px;
+  }
 }
