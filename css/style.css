@@ -380,16 +380,17 @@ footer {
  /* Queries*/
 @media only screen and (max-device-width: 480px) {
   body {
-    background-color: red;
+    background-color: #b1b262;
   }
   main {
     min-width: 100%;
     max-width: 100%;
   }
   #left-side-bar {
-    height: 1730px;
+    height: 100%;
     max-width: 100%;
     min-width: 100%;
+    margin-bottom: 10%;
   }
   #right-side-bar {
     background-color: white;
@@ -417,5 +418,9 @@ footer {
   }
   .full-name {
     font-size: 70px;
+  }
+  .email{
+    font-size: 40px;
+    margin: 30px 0px 0px 100px;
   }
 }
