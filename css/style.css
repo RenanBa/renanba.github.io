@@ -153,7 +153,7 @@ main {
 }
 
 #imageResume {
-  margin: -50% 0% 0% 8%;
+  margin: 0% 0% 0% 8%;
   width: 95%;
 }
 
@@ -481,6 +481,9 @@ footer {
   }
   .download {
     margin-top: 40px;
+  }
+  #resumeImage {
+    display: none;
   }
   /* right side end*/
 
