@@ -311,6 +311,10 @@ form {
   margin-bottom: 50px;
 }*/
 
+.projects-container {
+  display: none;
+}
+
 footer {
   width: 100%;
   height: 45px;
@@ -478,6 +482,57 @@ footer {
     margin-top: 40px;
   }
   /* right side end*/
+
+  /*Projects*/
+  .projects-container {
+    display: block;
+  }
+  .projects {
+    position: relative;
+    width: 65%;
+    height: 650px;
+  }
+  #checkers {
+    margin: auto;
+    background-color: #b1b262;
+  }
+
+  #invisibleT {
+    margin: auto;
+    background-color: #b1b262;
+  }
+
+  #walmart {
+    margin: auto;
+    background-color: #b1b262;
+  }
+
+  #flashC {
+    margin: auto;
+    background-color: #b1b262;
+  }
+  #checkers-image {
+    width: 650px;
+    height: 650px;
+  }
+
+ #invisibleT-image {
+    margin-top: 0px;
+    width: 650px;
+    height: 650px;
+ }
+ #flashCard-image {
+    margin: 0px;
+    width: 650px;
+    height: 650px;
+ }
+
+ #walmart-image {
+    width: 650px;
+    height: 650px;
+    font-size: 60px;
+ }
+  /*projects end*/
 
   #foot {
     font-size: 20px;
