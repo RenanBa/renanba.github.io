@@ -389,23 +389,24 @@ footer {
   }
   /* Links out side of the main tag*/
   .links {
-    margin: 40px 0px 0px 550px;
+    margin: 20px 0px 0px 823px;
    /* position: fixed;*/
   }
   .link-mobile-github{
-    margin: -149px 0px 0px 130px;
+    margin: 0px 0px 0px 0px;
     position: absolute;
   }
    .link-mobile-projects{
     margin: -149px 0px 0px 260px;
     position: absolute;
+    display: none;
   }
   .lightAnimation {
     margin: -125px 0px 0px 285px;
     width: 70px;
     height: 70px;
   }
-  .projects-mobile{
+  .projects-lable{
     margin-top: 50px;
     margin-left: -50px;
     font-size: 50px;
@@ -485,12 +486,20 @@ footer {
 
   /*Projects*/
   .projects-container {
+    margin-top: 50px;
     display: block;
+    padding-right: 30px;
+  }
+  .projects-titler {
+    color: #ffffff;
+    padding: 5px;
+    margin-left: 37%;
+    font-size: 50px;
   }
   .projects {
     position: relative;
     width: 65%;
-    height: 650px;
+    height: 700px;
   }
   #checkers {
     margin: auto;
@@ -512,22 +521,24 @@ footer {
     background-color: #b1b262;
   }
   #checkers-image {
+    margin-top: 0px;
     width: 650px;
     height: 650px;
   }
 
  #invisibleT-image {
-    margin-top: 0px;
+    margin-top: 10px;
     width: 650px;
     height: 650px;
  }
  #flashCard-image {
-    margin: 0px;
+    margin-top: 20px;
     width: 650px;
     height: 650px;
  }
 
  #walmart-image {
+   margin-top: 10px;
     width: 650px;
     height: 650px;
     font-size: 60px;
