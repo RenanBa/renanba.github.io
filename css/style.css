@@ -383,6 +383,7 @@ footer {
   body {
     background-color: #b1b262;
   }
+  /* Links out side of the main tag*/
   .links {
     margin: 40px 0px 0px 550px;
    /* position: fixed;*/
@@ -405,32 +406,29 @@ footer {
     margin-left: -50px;
     font-size: 50px;
   }
-
   .circle{
     width: 110px;
     height: 110px;
+    opacity: 0.9;
   }
+  /* Links end*/
+
 
   main {
     min-width: 100%;
     max-width: 100%;
   }
+
+  /* left side content */
   #left-side-bar {
     height: 100%;
     max-width: 100%;
     min-width: 100%;
     margin-bottom: 10%;
   }
-  #right-side-bar {
-    background-color: white;
-    max-width: 100%;
-    min-width: 100%;
-    padding-bottom: 30px;
-  }
-  #image {
-    margin-top: 0%;
-    max-width: 60%;
-    max-height: 85%;
+  .my-name-is, .name {
+    margin: 0;
+    font-family: Impact, Charcoal, sans-serif;
   }
   .in-the-left {
     margin: 10% 0% 0% 10%;
@@ -452,4 +450,37 @@ footer {
     font-size: 40px;
     margin: 30px 0px 0px 100px;
   }
+  .resize-button{
+    font-size: 35px;
+    padding: 10px;
+  }
+  /* left content end*/
+
+  /* right side content */
+  #right-side-bar {
+    background-color: white;
+    max-width: 100%;
+    min-width: 100%;
+    padding-bottom: 30px;
+  }
+  .title {
+    position: relative;
+    margin-left: 275px;
+    padding-bottom: 15px;
+    font-size: 40px;
+  }
+  #image {
+    margin-top: 0%;
+    max-width: 60%;
+    max-height: 85%;
+  }
+  .download {
+    margin-top: 40px;
+  }
+  /* right side end*/
+
+  #foot {
+    font-size: 20px;
+  }
+
 }
