@@ -23,15 +23,16 @@ $(document).ready(function(){
 
   $("#project-image").on("click", function(e){
     e.preventDefault();
+    $("#right-side-bar").css("display","none");
+    $(".projects-container").css("display","block")
+    // $("#imageResume").remove();
+    // $(".downloadToRemove").remove();
+    // $(".links").append(Parse.lightAnimation);
 
-    $("#imageResume").remove();
-    $(".downloadToRemove").remove();
-    $(".links").append(Parse.lightAnimation);
+    // $(".send-message-align").removeClass("send-message-align").addClass("send-message");
 
-    $(".send-message-align").removeClass("send-message-align").addClass("send-message");
-
-    $(".wrap-right-side").hide();
-    $("#right-side-bar").append(Parse.checkers + Parse.invisibleT + Parse.walmart + Parse.movieR + Parse.flashC);
+    // $(".wrap-right-side").hide();
+    // $("#right-side-bar").append(Parse.checkers + Parse.invisibleT + Parse.walmart + Parse.movieR + Parse.flashC);
   })
 
   $(".links").on("click", ".lightAnimation", function(e){
@@ -86,15 +87,15 @@ var Parse = {
 
   resume: "<img id='imageResume' src='images/resumeImage.png' alt='Resume'>",
 
-  checkers: "<a href='checkers/index.html' target='_blank' class='removeProject' ><div class='projects' id='checkers'><img id='checkers-image' src='images/checkers.png' alt='checkers'></div></a>",
+  // checkers: "<a href='checkers/index.html' target='_blank' class='removeProject' ><div class='projects' id='checkers'><img id='checkers-image' src='images/checkers.png' alt='checkers'></div></a>",
 
-  invisibleT: "<a href='https://github.com/RenanBa/invisible-thread' target='_blank' class='removeProject' > <div class='projects' id='invisibleT'><img id='invisibleT-image' src='images/invisibleThread.png' alt='Invisible Thread'></div></a>",
+  // invisibleT: "<a href='https://github.com/RenanBa/invisible-thread' target='_blank' class='removeProject' > <div class='projects' id='invisibleT'><img id='invisibleT-image' src='images/invisibleThread.png' alt='Invisible Thread'></div></a>",
 
-  walmart: "<a href='https://search-api-market.herokuapp.com/' target='_blank' class='removeProject' > <div class='projects' id='walmart'><h2 id='walmart-image'>Walmart API search</h2></div></a>",
+  // walmart: "<a href='https://search-api-market.herokuapp.com/' target='_blank' class='removeProject' > <div class='projects' id='walmart'><h2 id='walmart-image'>Walmart API search</h2></div></a>",
 
-  movieR: "<div class='projects' id='movieR'></div>",
+  // movieR: "<div class='projects' id='movieR'></div>",
 
-  flashC: "<a href='https://bearflahscard.herokuapp.com/homepage' target='_blank' class='removeProject' > <div class='projects' id='flashC'><img id='flashCard-image' src='images/flashcards.png'></div></a>",
+  // flashC: "<a href='https://bearflahscard.herokuapp.com/homepage' target='_blank' class='removeProject' > <div class='projects' id='flashC'><img id='flashCard-image' src='images/flashcards.png'></div></a>",
 
   lightAnimation: "<div class='lightAnimation'></div>"
 

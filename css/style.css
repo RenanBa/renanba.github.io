@@ -23,12 +23,13 @@ main {
   max-width: 49%;
   display: inline-block;
   vertical-align: middle;
-  height: 1233px;
+  height: 100%;
   min-width: 49%;
+  padding-bottom: 40px;
 }
 
 #right-side-bar {
-  background-color: white;
+  background-color: #ffffff;
   max-width: 700px;
   min-width: 700px;
   display: inline-block;
@@ -42,7 +43,7 @@ main {
 #image {
   display: block;
   margin: auto;
-  margin-top: -65%;
+  margin-top: 0%;
   max-width: 60%;
   max-height: 85%;
 }
@@ -143,13 +144,13 @@ main {
 }
 
 .wrap-right-side {
-  margin-top: 10%;
+  margin-top: 0%;
 }
 
 .title {
+  padding: 30px;
   color: #b1b262;
-  margin: -45px 0px 0px 210px;
-  position: absolute;
+  margin: 0px 0px 0px 190px;
 }
 
 #imageResume {
@@ -467,6 +468,7 @@ footer {
     max-width: 100%;
     min-width: 100%;
     padding-bottom: 30px;
+    margin-top: 100px;
   }
   .title {
     position: relative;
