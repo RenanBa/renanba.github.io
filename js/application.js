@@ -23,8 +23,15 @@ $(document).ready(function(){
 
   $("#project-image").on("click", function(e){
     e.preventDefault();
-    $("#right-side-bar").css("display","none");
-    $(".projects-container").css("display","block")
+    if($('.wrap-right-side:visible').length == 0){
+      console.log("visible");
+      $(".wrap-right-side").css("display","block");
+      $(".projects-container").css("display","none");
+    }else {
+      console.log("hidden");
+      $(".wrap-right-side").css("display","none");
+      $(".projects-container").css("display","block");
+    }
     // $("#imageResume").remove();
     // $(".downloadToRemove").remove();
     // $(".links").append(Parse.lightAnimation);
