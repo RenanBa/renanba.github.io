@@ -23,14 +23,16 @@ main {
   max-width: 49%;
   display: inline-block;
   vertical-align: middle;
-  height: 1233px;
+  height: 100%;
   min-width: 49%;
+  padding-bottom: 40px;
 }
 
 #right-side-bar {
-  background-color: white;
+  background-color: #ffffff;
   max-width: 700px;
   min-width: 700px;
+  /*margin-top: -150px;*/
   display: inline-block;
   vertical-align: middle;
 }
@@ -42,7 +44,7 @@ main {
 #image {
   display: block;
   margin: auto;
-  margin-top: -65%;
+  margin-top: 0%;
   max-width: 60%;
   max-height: 85%;
 }
@@ -143,13 +145,13 @@ main {
 }
 
 .wrap-right-side {
-  margin-top: 10%;
+  margin-top: 0%;
 }
 
 .title {
+  padding: 30px;
   color: #b1b262;
-  margin: -45px 0px 0px 210px;
-  position: absolute;
+  margin: 0px 0px 0px 190px;
 }
 
 #imageResume {
@@ -312,7 +314,11 @@ form {
 }*/
 
 .projects-container {
+  background-color: gray;
   display: none;
+  width: 714px;
+  height: 921px;
+  margin-top: -20px;
 }
 
 footer {
@@ -328,31 +334,49 @@ footer {
 
 
 /*projects parse*/
+
+.projects-titler {
+  color: #ffffff;
+  padding-top: 35px;
+  margin-left: 37%;
+  font-size: 30px;
+}
+
 .projects {
-  width: 250px;
-  height: 250px;
-  position: absolute;
+  width: 100px;
+  /*height: 50%;*/
+  margin: 30px;
+  /*position: absolute;*/
   /*background-color: #a3903a;*/
 }
 
 #checkers {
-  margin: -552px 0px 0px 90px;
-  background-color: #a3903a;
+  /*display: inline-block;*/
+  /*vertical-align: middle;*/
+  margin: 0px 0px 0px 90px;
+  /*background-color: #a3903a;*/
 }
 
 #invisibleT {
-  margin: -552px 0px 0px 400px;
-  background-color: #27d5db;
+  /*display: inline-block;*/
+  /*vertical-align: middle;*/
+  /*margin-left: 30px;*/
+  margin: -200px 0px 0px 400px;
+  /*background-color: #27d5db;*/
+  /*position: absolute;*/
 }
 
 #walmart {
-  margin: -252px 0px 0px 90px;
-  background-color: #a3903a;
+  /*display: inline-block;*/
+  /*vertical-align: middle;*/
+  /*margin-left: 30px;*/
+  margin: 0px 0px 0px 90px;
+  /*background-color: #a3903a;*/
 }
 
 #flashC {
-  margin: -252px 0px 0px 400px;
-  background-color: #a3903a;
+  margin: -250px 0px 0px 400px;
+  /*background-color: #a3903a;*/
 }
 
 #checkers-image {
@@ -361,12 +385,12 @@ footer {
 }
 
  #invisibleT-image {
-  margin-top: 70px;
+  /*margin-top: 70px;*/
   width: 250px;
   height: 184px;
  }
  #flashCard-image {
-    margin-top: 25px;
+    /*margin-top: 25px;*/
     width: 250px;
     height: 200px;
  }
@@ -377,7 +401,7 @@ footer {
   width: 250px;
   height: 230px;
   font-size: 60px;
-  margin-top: 0px;
+  /*margin-top: 0px;*/
   text-align: center;
   padding-top: 20px;
  }
@@ -431,10 +455,6 @@ footer {
     min-width: 100%;
     margin-bottom: 10%;
   }
-  .my-name-is, .name {
-    margin: 0;
-    font-family: Impact, Charcoal, sans-serif;
-  }
   .in-the-left {
     margin: 10% 0% 0% 10%;
   }
@@ -453,24 +473,26 @@ footer {
   }
   .email{
     font-size: 40px;
-    margin: 30px 0px 0px 100px;
+    margin: 30px 0px 0px 107px;
   }
   .resize-button{
     font-size: 35px;
     padding: 10px;
+    margin-left: 20px;
   }
   /* left content end*/
 
   /* right side content */
   #right-side-bar {
-    background-color: white;
+    /*background-color: green;*/
     max-width: 100%;
     min-width: 100%;
-    padding-bottom: 30px;
+    /*padding-bottom: px;*/
+    margin-top: 100px;
   }
   .title {
     position: relative;
-    margin-left: 275px;
+    margin-left: 250px;
     padding-bottom: 15px;
     font-size: 40px;
   }
@@ -489,13 +511,15 @@ footer {
 
   /*Projects*/
   .projects-container {
+    height: 100%;
     margin-top: 50px;
     display: block;
-    padding-right: 30px;
+    background-color: #b1b262;
+    width: 100%;
   }
   .projects-titler {
     color: #ffffff;
-    padding: 5px;
+    /*padding: 5px;*/
     margin-left: 37%;
     font-size: 50px;
   }
@@ -506,22 +530,22 @@ footer {
   }
   #checkers {
     margin: auto;
-    background-color: #b1b262;
+    /*background-color: #b1b262;*/
   }
 
   #invisibleT {
     margin: auto;
-    background-color: #b1b262;
+    /*background-color: #b1b262;*/
   }
 
   #walmart {
     margin: auto;
-    background-color: #b1b262;
+    /*background-color: #b1b262;*/
   }
 
   #flashC {
     margin: auto;
-    background-color: #b1b262;
+    /*background-color: #b1b262;*/
   }
   #checkers-image {
     margin-top: 0px;
@@ -550,6 +574,10 @@ footer {
 
   #foot {
     font-size: 20px;
+  }
+
+  footer {
+    padding-top: 10px;
   }
 
 }
