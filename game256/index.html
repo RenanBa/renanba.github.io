@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!--
+    normalize.css removes cross-browser differences in defaults, e.g.,
+    differences in how form elements appear between Firefox and IE
+    See: http://necolas.github.com/normalize.css/
+  -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!--
+    application.css is where you put your styles
+  -->
+  <link rel="stylesheet" href="css/application.css">
+
+
+  <!-- <script src="/js/mousetrap.js"></script> -->
+  <!-- <script src="/js/underscore.js"></script> -->
+  <script src="js/game.js"></script>
+  <script src="js/application.js"></script>
+  <script src="js/board.js"></script>
+
+  <title>256!</title>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="english">
+        <h2>Welcome to 256!</h2>
+        <h4 class="intro">A small clone of <a href='http://2048game.com/'>2048</a>.</h4>
+
+        <h4 class="directions"> Use W, D, S and S or the arrows Up, Right, Down and Left</h4>
+        <button id="newGame">New Game</button>
+
+        <table style="width:200px">
+          <tr>
+            <th><h3 class="score">Score:</h3></th>
+            <td><h3 class="scoreValue">0</h3></td>
+          </tr>
+        </table>
+      </div>
+    </header>
+
+    <div class="board">
+      <div class="squares a e" id="s1"></div>
+      <div class="squares a f" id="s2"></div>
+      <div class="squares a g" id="s3"></div>
+      <div class="squares a h" id="s4"></div>
+
+      <div class="squares b e" id="s5"></div>
+      <div class="squares b f" id="s6"></div>
+      <div class="squares b g" id="s7"></div>
+      <div class="squares b h" id="s8"></div>
+
+      <div class="squares c e" id="s9"></div>
+      <div class="squares c f" id="s10"></div>
+      <div class="squares c g" id="s11"></div>
+      <div class="squares c h" id="s12"></div>
+
+      <div class="squares d e" id="s13"></div>
+      <div class="squares d f" id="s14"></div>
+      <div class="squares d g" id="s15"></div>
+      <div class="squares d h" id="s16"></div>
+    </div>
+  </main>
+
+  <div class="sideBard">
+    <div>
+      <button class="idiom" >Trocar para Versão Português</button>
+    </div>
+
+    <div class="comoJogarNone ">
+      <p>
+        COMO JOGAR: Use as setas do teclado ou as letras W, D, S, e A. Quando tem dois valores iguais na mesma direção esses são somados. Se conseguir somar 256 você ganha e se ficar sem movimentos você perde.
+      </p>
+    </div>
+
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
