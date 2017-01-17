@@ -247,6 +247,10 @@ footer {
   margin: -250px 0px 0px 400px;
 }
 
+#game256 {
+  margin: 30px 0px 0px 90px;
+}
+
 #checkers-image {
   width: 250px;
   height: 250px;
@@ -262,6 +266,16 @@ footer {
  }
 
  #walmart-image {
+  color: #ffffff;
+  background-color: #605f5a;
+  width: 250px;
+  height: 230px;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 20px;
+ }
+
+#game256-image{
   color: #ffffff;
   background-color: #605f5a;
   width: 250px;
