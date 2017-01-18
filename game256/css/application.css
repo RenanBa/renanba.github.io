@@ -31,6 +31,7 @@ table {
   height: 538px;
   width: 538px;
   border-style: solid;
+  text-align: center;
 }
 
 .squares {
@@ -38,6 +39,7 @@ table {
   height: 130px;
   width: 130px;
   border-style: solid;
+  /*display: inline-block;*/
 }
 
 
