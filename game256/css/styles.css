@@ -11,6 +11,10 @@ main {
   width: 80%;
 }
 
+#newGame {
+  margin-bottom: 10px;
+}
+
 .sideBard {
   text-align: center;
   float: right;
@@ -27,7 +31,7 @@ table {
 
 .board {
   margin: auto;
-  height: 565px;
+  height: 568px;
   width: 570px;
   border-style: solid;
   text-align: center;
@@ -45,6 +49,10 @@ table {
   margin: auto;
   padding: 28px 47px 28px 47px;
   position: absolute;
+}
+
+.a {
+  margin-top: 2px;
 }
 
 .numbers2 {

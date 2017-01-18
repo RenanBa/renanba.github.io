@@ -277,12 +277,12 @@ footer {
 
 #game256-image{
   color: #ffffff;
-  background-color: #605f5a;
+  background-color: #BDFCF7;
   width: 250px;
-  height: 230px;
+  height: 250px;
   font-size: 60px;
   text-align: center;
-  padding-top: 20px;
+  /*padding-top: 20px;*/
  }
 
  /* Queries*/
