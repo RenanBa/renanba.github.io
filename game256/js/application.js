@@ -1,6 +1,19 @@
 $(document).ready(function() {
   console.log("Pronto!");
 
+  $("#arrowUp").on("click", function(){
+    Up();
+  });
+  $("#arrowLeft").on("click", function(){
+    Left();
+  });
+  $("#arrowRight").on("click", function(){
+    Right();
+  });
+  $("#arrowDown").on("click", function(){
+    Down();
+  });
+
   $(".idiom").on("click", function(){
     Swich.languages();
   });
@@ -12,6 +25,23 @@ $(document).ready(function() {
     Display(game.board);
   });
 });
+
+
+// Detect the direction when mouse is dragged
+// document.onmousedown = function(mousedown) {
+//   mousedown = mousedown || window.event
+//   console.log(mousedown.screenX);
+//   this.onmouseup = function(mouseup) {
+//     mouseup = mouseup || window.event
+//     console.log(mouseup.screenX);
+//     if(mousedown.screenX < mouseup.screenX){
+//       Right();
+//     }
+//     document.onmousemove = null
+//   }
+// }
+
+
 
 var Display = function(board){
   $.each(board, function(index, value){
@@ -115,7 +145,7 @@ var Up = function(){
 
 }
 
-var Righ = function(){
+var Right = function(){
   if (game.didWin()){
       Winner();
   } else if (game.right()){
@@ -166,7 +196,7 @@ function keyDown(e) {
     case 39: // right arrow pressed
     case 100:
       console.log("D pressed")
-      Righ();
+      Right();
       break;
     case 40: // down arrow pressed
     case 115:
