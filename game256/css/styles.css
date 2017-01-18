@@ -21,7 +21,6 @@ main {
   vertical-align: middle;
 }
 
-
 table {
   margin: auto;
 }
@@ -41,9 +40,7 @@ table {
   border-style: solid;
   /*display: inline-block;*/
 }
-
-
-
+/*
 #s1 {
   margin: 0px 0px 0px 0px;
 }
@@ -106,7 +103,7 @@ table {
 
 #s16 {
   margin: -130px 0px 0px 403px;
-}
+}*/
 
 .boxSize {
   margin: 0 auto;
