@@ -23,12 +23,11 @@
   <link rel="stylesheet" href="css/application.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
 
-
-  <!-- <script src="/js/mousetrap.js"></script> -->
-  <!-- <script src="/js/underscore.js"></script> -->
-  <script src="js/game.js"></script>
-  <script src="js/application.js"></script>
-  <script src="js/board.js"></script>
+  <!-- <script type="text/javascript" src="js/mousetrap.js"></script> -->
+  <!-- <script type="text/javascript" src="/js/underscore.js"></script> -->
+  <script type="text/javascript" src="js/game.js"></script>
+  <script type="text/javascript" src="js/application.js"></script>
+  <script type="text/javascript" src="js/board.js"></script>
 
   <title>256!</title>
 </head>
@@ -68,11 +67,19 @@
     </div>
 
     <table style="width:200px">
-          <tr>
-            <th><h3 class="score">Score:</h3></th>
-            <td><h3 class="scoreValue">0</h3></td>
-          </tr>
-        </table>
+      <tr>
+        <th><h3 class="score">Score:</h3></th>
+        <td><h3 class="scoreValue">0</h3></td>
+      </tr>
+    </table>
+
+    <div class="arrows">
+      <img id="arrowLeft" src="images/arrowLeft.png" alt="arrow Left">
+      <img id="arrowUp" src="images/arrowUp.png" alt="arrow Up">
+      <img id="arrowDown" src="images/arrowDown.png" alt="arrow Down">
+      <img id="arrowRight" src="images/arrowRight.png" alt="arrow Right">
+    </div>
+
   </main>
 
   <div class="sideBard">
@@ -85,8 +92,8 @@
         COMO JOGAR: Use as setas do teclado ou as letras W, D, S, e A. Quando tem dois valores iguais na mesma direção esses são somados. Se conseguir somar 256 você ganha e se ficar sem movimentos você perde.
       </p>
     </div>
-
   </div>
+
 </body>
 </html>
 

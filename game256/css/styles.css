@@ -96,6 +96,39 @@ table {
 }
 
 
+
+/*ARROWS*/
+.arrows {
+  display: none;
+  margin: auto;
+  height: 600px;
+  width: 600px;
+}
+
+#arrowLeft {
+  margin-top: 180px;
+  float: left;
+}
+
+#arrowUp {
+  margin: 0 0 0 -170px;
+  position: absolute;
+}
+#arrowRight {
+  margin-top: 180px;
+  float: right;
+}
+#arrowDown {
+  position: absolute;
+  margin: 320px 0 0 -170px;
+}
+
+
+
+
+
+
+
 /*side bar*/
 
 .comoJogarNone {
@@ -145,3 +178,14 @@ p {
    border-top-color: #ffffff;
    background: #ffffff;
    }
+
+
+@media only screen and (max-device-width: 480px) {
+  .arrows {
+    display: block;
+  }
+}
+
+
+
+
